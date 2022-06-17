@@ -1,10 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
-
+import Book from "./App"
 
 const Greeting = ()=>{
-
-    return (<h4>Hello I am the new h4 is the new update</h4>)
+    return (<Book/>
 }
 
 ReactDOM.render(<Greeting/>, document.getElementById("root"))
