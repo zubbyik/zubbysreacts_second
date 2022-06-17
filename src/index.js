@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Book from "./App"
+import Book from "./App.jsx"
 
 const Greeting = ()=>{
     return (<Book/>
